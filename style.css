@@ -4,3 +4,47 @@ body
     padding: 0;
     font-family: Arial, Helvetica, sans-serif;
 }
+h1
+{
+    text-align: center;
+}
+.regular-search
+{
+    display: flex;
+    justify-content: center;
+    align-items: top;
+    height: 10vh;
+}
+.regular-search .btn
+{
+    background-color: #2a9d8f;
+    color: white;
+    padding: 10px 8px;
+    font-size: 14px;
+    border-radius: 20px;
+    border: none;
+    text-align: center;
+}
+.regular-search .btn:hover
+{
+    margin-left: 5px;
+    transition: 0.5s all ease-out;
+    background-color: #264563;
+}
+.regular-search .text-box
+{
+    font-size: 18px;
+
+}
+.links
+{
+    display: fixed;
+    top: 10px;
+    right: 10px;
+    height: 100px;
+}
+.links a
+{
+    text-decoration: underline;
+    color: black;
+}
